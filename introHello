@@ -1,0 +1,11 @@
+Public Class introHello
+
+    Private Sub buttonHello_Click(sender As Object, e As EventArgs) Handles buttonHello.Click
+        Me.labelHello.Text = " Hello Everyone :D !! "
+    End Sub
+
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles btnHelloColor.Click
+        Me.labelHello.ForeColor = Color.SeaGreen
+    End Sub
+
+End Class
